@@ -8,20 +8,29 @@ import { HeaderComponent } from './components/OnScreenElements/header/header.com
 
 // Custum modules --import here --reference on import array
 import { MatToolbarModule } from "@angular/material/toolbar";
-import { FooterComponent } from './components/OnScreenElements/footer/footer.component'
+
+import { MatSidenavModule } from "@angular/material/sidenav"
+import { MatListModule } from "@angular/material/list"
+
+import { FooterComponent } from './components/OnScreenElements/footer/footer.component';
+import { SidewaysNavbarComponent } from './components/OnScreenElements/sideways-navbar/sideways-navbar.component'
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    SidewaysNavbarComponent
   ],
   imports: [ 
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatListModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
