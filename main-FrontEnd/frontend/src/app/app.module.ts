@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/OnScreenElements/header/header.component';
 
 // Custum modules --import here --reference on import array
-import { MatToolbarModule } from "@angular/material/toolbar"
+import { MatToolbarModule } from "@angular/material/toolbar";
+import { FooterComponent } from './components/OnScreenElements/footer/footer.component'
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [ 
     BrowserModule,

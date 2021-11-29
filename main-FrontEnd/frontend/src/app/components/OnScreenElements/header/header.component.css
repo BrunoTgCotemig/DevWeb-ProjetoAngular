@@ -4,3 +4,26 @@
     padding-top: 4px;
     padding-bottom: 4px;
 }
+
+.logo-1{
+
+    max-height: 65px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+.header{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.header a {
+
+    display: flex;
+    align-items: center ;
+    text-decoration: none;
+
+}
