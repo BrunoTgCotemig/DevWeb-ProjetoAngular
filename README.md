@@ -1,12 +1,10 @@
 # 3B1 - BRUNO TELES GALVAO - Nº 10
 Projeto Angular
 
-<pre>
-
-
-
-
-</pre>
+<br />
+<br />
+<br />
+<br />
 
 
 ## Observações:
