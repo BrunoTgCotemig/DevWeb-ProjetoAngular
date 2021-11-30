@@ -15,7 +15,8 @@ import { MatCardModule } from "@angular/material/card"
 
 import { FooterComponent } from './components/OnScreenElements/footer/footer.component';
 import { SidewaysNavbarComponent } from './components/OnScreenElements/sideways-navbar/sideways-navbar.component';
-import { ViewMainComponent } from './components/PageViews/view-main/view-main.component'
+import { ViewMainComponent } from './components/PageViews/view-main/view-main.component';
+import { ViewAdddataComponent } from './components/PageViews/view-adddata/view-adddata.component'
 
 
 
@@ -25,7 +26,8 @@ import { ViewMainComponent } from './components/PageViews/view-main/view-main.co
     HeaderComponent,
     FooterComponent,
     SidewaysNavbarComponent,
-    ViewMainComponent
+    ViewMainComponent,
+    ViewAdddataComponent
   ],
   imports: [ 
     BrowserModule,
