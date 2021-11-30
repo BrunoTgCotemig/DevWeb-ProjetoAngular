@@ -8,6 +8,7 @@ Projeto Angular
 
 ## Observações:
 
-- O site não está exatamente confome o que foi descrito nos tutorias. A extrutura do frontend, em alguns aspectos, está bem diferente.
+- O projeto não está exatamente confome o que foi descrito nos tutorias. A extrutura do frontend, em alguns aspectos, está bem diferente.
 
-- O Material que você postou me ajudou MUITO. Para ser bem sincero, eu não tive a necessidade de pesquisar por outras fontes.  
+- Tive um porblema com a NavBar. Não consegui colocar-la no lugar certo: Atráz do footer e header. Também, não foi possivel colocar os conteúdos das páginas dentro do "content" da NavBar.
+
