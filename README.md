@@ -2,7 +2,12 @@
 Projeto Angular
 
 
+<p></p>
+<p></p>
+<p></p>
 
+## Observações:
 
-PS: O Material que você postou me ajudou MUITO. Para ser bem sincero, 
-eu não tive a necessidade de pesquisar por outras fontes.  
+- O site não está exatamente confome o que foi descrito nos tutorias. A extrutura do frontend, em alguns aspectos, está bem diferente.
+
+- O Material que você postou me ajudou MUITO. Para ser bem sincero, eu não tive a necessidade de pesquisar por outras fontes.  
