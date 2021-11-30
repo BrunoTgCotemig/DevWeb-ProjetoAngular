@@ -13,7 +13,8 @@ import { MatSidenavModule } from "@angular/material/sidenav"
 import { MatListModule } from "@angular/material/list"
 
 import { FooterComponent } from './components/OnScreenElements/footer/footer.component';
-import { SidewaysNavbarComponent } from './components/OnScreenElements/sideways-navbar/sideways-navbar.component'
+import { SidewaysNavbarComponent } from './components/OnScreenElements/sideways-navbar/sideways-navbar.component';
+import { ViewMainComponent } from './components/PageViews/view-main/view-main.component'
 
 
 
@@ -22,7 +23,8 @@ import { SidewaysNavbarComponent } from './components/OnScreenElements/sideways-
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SidewaysNavbarComponent
+    SidewaysNavbarComponent,
+    ViewMainComponent
   ],
   imports: [ 
     BrowserModule,
