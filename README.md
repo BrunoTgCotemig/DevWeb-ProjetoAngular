@@ -4,7 +4,6 @@ Projeto Angular
 <br />
 <br />
 <br />
-<br />
 
 
 ## Observações:
