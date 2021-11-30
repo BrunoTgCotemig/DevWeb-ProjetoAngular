@@ -11,6 +11,7 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 
 import { MatSidenavModule } from "@angular/material/sidenav"
 import { MatListModule } from "@angular/material/list"
+import { MatCardModule } from "@angular/material/card"
 
 import { FooterComponent } from './components/OnScreenElements/footer/footer.component';
 import { SidewaysNavbarComponent } from './components/OnScreenElements/sideways-navbar/sideways-navbar.component';
@@ -32,7 +33,8 @@ import { ViewMainComponent } from './components/PageViews/view-main/view-main.co
     BrowserAnimationsModule,
     MatToolbarModule,
     MatListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
