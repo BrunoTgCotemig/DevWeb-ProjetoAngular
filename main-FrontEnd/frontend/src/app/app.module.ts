@@ -12,11 +12,14 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatSidenavModule } from "@angular/material/sidenav"
 import { MatListModule } from "@angular/material/list"
 import { MatCardModule } from "@angular/material/card"
+import { MatButtonModule } from "@angular/material/button"
+
 
 import { FooterComponent } from './components/OnScreenElements/footer/footer.component';
 import { SidewaysNavbarComponent } from './components/OnScreenElements/sideways-navbar/sideways-navbar.component';
 import { ViewMainComponent } from './components/PageViews/view-main/view-main.component';
-import { ViewAdddataComponent } from './components/PageViews/view-adddata/view-adddata.component'
+import { ViewAdddataComponent } from './components/PageViews/view-adddata/view-adddata.component';
+import { ViewAdddataTransitionComponent } from './components/PageViews/view-adddata-transition/view-adddata-transition.component'
 
 
 
@@ -27,7 +30,8 @@ import { ViewAdddataComponent } from './components/PageViews/view-adddata/view-a
     FooterComponent,
     SidewaysNavbarComponent,
     ViewMainComponent,
-    ViewAdddataComponent
+    ViewAdddataComponent,
+    ViewAdddataTransitionComponent
   ],
   imports: [ 
     BrowserModule,
@@ -36,7 +40,8 @@ import { ViewAdddataComponent } from './components/PageViews/view-adddata/view-a
     MatToolbarModule,
     MatListModule,
     MatSidenavModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
