@@ -13,6 +13,7 @@ import { MatSidenavModule } from "@angular/material/sidenav"
 import { MatListModule } from "@angular/material/list"
 import { MatCardModule } from "@angular/material/card"
 import { MatButtonModule } from "@angular/material/button"
+import { MatSnackBarModule } from "@angular/material/snack-bar"
 
 
 import { FooterComponent } from './components/OnScreenElements/footer/footer.component';
@@ -41,7 +42,8 @@ import { ViewAdddataTransitionComponent } from './components/PageViews/view-addd
     MatListModule,
     MatSidenavModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
