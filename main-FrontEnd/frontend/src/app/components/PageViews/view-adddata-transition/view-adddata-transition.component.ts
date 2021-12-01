@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from "@angular/router"
 
 @Component({
   selector: 'app-view-adddata-transition',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ViewAdddataTransitionComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) {}
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+
+  GoTo_adddata():void{
+
+    console.log("GoTo_adddata was called")
+    this.router.navigate(["/trnstn/adddata"])
+
   }
 
 }

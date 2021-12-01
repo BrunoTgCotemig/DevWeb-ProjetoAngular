@@ -12,7 +12,7 @@ const routes: Routes = [
 
   },
   {
-    path:"adddata",
+    path:"trnstn/adddata",
     component: ViewAdddataComponent,
 
   },
