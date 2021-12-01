@@ -15,6 +15,7 @@ import { MatCardModule } from "@angular/material/card"
 import { MatButtonModule } from "@angular/material/button"
 import { MatSnackBarModule } from "@angular/material/snack-bar"
 
+import { HttpClientModule } from "@angular/common/http"
 
 import { FooterComponent } from './components/OnScreenElements/footer/footer.component';
 import { SidewaysNavbarComponent } from './components/OnScreenElements/sideways-navbar/sideways-navbar.component';
@@ -43,7 +44,8 @@ import { ViewAdddataTransitionComponent } from './components/PageViews/view-addd
     MatSidenavModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
