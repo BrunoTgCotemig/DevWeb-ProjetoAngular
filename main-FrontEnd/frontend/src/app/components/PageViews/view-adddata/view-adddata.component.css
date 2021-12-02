@@ -8,11 +8,26 @@ form{
 button{
     margin: 20px 15px 0px 0px;
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
+    background-color: #641467;
+    color: white;
 }
+
+.divExtended{
+    width: 100%; 
+    max-width: 600px; 
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
 
 
 .inputField{
     width: 100%;
     max-width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
 }
