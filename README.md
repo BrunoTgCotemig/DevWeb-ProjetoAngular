@@ -2,7 +2,7 @@
 Projeto Angular
 
 
--- O projeto ainda não está concluido
+-- Não foi possível finalizar os critérios de avaliação presentes nos slides de tutorial 8 e 9
 <br />
 <br />
 <br />
