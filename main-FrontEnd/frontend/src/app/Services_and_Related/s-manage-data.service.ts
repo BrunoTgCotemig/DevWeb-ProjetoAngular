@@ -9,10 +9,12 @@ import { User } from "./Models/DM_User"
   providedIn: 'root'
 })
 export class SManageDataService {
-  constructor(private SnackBar: MatSnackBar, private http: HttpClient) {}
-
-
   baseUrl = "http://localhost:3001/Signed_People"
+  constructor(private SnackBar: MatSnackBar, private http: HttpClient) {}
+  
+
+
+
 
 
   GenerateMessage(msg: string, isError:boolean=false):void {
