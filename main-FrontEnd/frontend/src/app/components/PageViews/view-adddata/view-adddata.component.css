@@ -2,10 +2,17 @@ form{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    align-items: center;
 }
 
 button{
     margin: 20px 15px 0px 0px;
+    width: 100%;
+    max-width: 300px;
+}
+
+
+.inputField{
     width: 100%;
     max-width: 300px;
 }
