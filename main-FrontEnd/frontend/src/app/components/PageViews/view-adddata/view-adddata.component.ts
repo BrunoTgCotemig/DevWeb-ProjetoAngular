@@ -16,13 +16,13 @@ export class ViewAdddataComponent implements OnInit {
 
   
   dummyData: User = {
-    Name: "Adalberto",
-    Age: 19,
-    Gender: 'Masculino',
-    Email: 'a@a.gmail.com',
-    PhoneNumber: '1233322',
-    CountryOfOrigin: 'Albania',
-    CityOfOrigin: 'Tottaly not an Albanian city'
+    Name: "",
+    Age: 0,
+    Gender: '',
+    Email: '',
+    PhoneNumber: '',
+    CountryOfOrigin: '',
+    CityOfOrigin: ''
   }
 
 
@@ -43,6 +43,8 @@ export class ViewAdddataComponent implements OnInit {
       this.smanageservice.GenerateMessage("Registro completo!");
       this.router.navigate(["/trnstn"]);
     });
+
+    
 
     
   }
